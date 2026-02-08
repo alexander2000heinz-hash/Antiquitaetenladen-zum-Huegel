@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f2ec;
+  margin: 0;
+}
+
+header {
+  background: #6b4f3f;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  background: #ddd;
+  padding: 10px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.angebot {
+  background: white;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.content-image {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 12px 0;
+}
+
+.angebot img {
+  max-width: 200px;   /* z. B. 150–250px, nach Geschmack */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.team-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  margin: 8px 0 12px 0;
+}
+
+footer {
+  background: #ccc;
+  text-align: center;
+  padding: 10px;
+}
